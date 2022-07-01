@@ -1,0 +1,18 @@
+.bladeB {
+    margin-top: 200px ;
+    row-gap: 75px ;
+    column-gap: 75px ;
+}
+.bladeB .text-wrapper {
+    flex: 1 1 600px;
+}
+.bladeB .text-wrapper .title{
+    color: #618DFF;
+}
+.bladeB .img-container  {
+    flex: 0 1 650px;
+    margin-top: 65px ;
+}
+.bladeB .img-container img {
+    width: 95%;
+}

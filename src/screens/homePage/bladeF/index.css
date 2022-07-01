@@ -1,0 +1,19 @@
+.bladeE .title {
+    color: #16FCD2;
+}
+.bladeE .text-wrapper{
+    column-gap: 85px;
+    row-gap: 65px;
+    margin-top: 75px;
+}
+.bladeE .text-wrapper div{
+    flex: 0  1 600px ;
+}
+.bladeE .text-wrapper .text-light{
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+.bladeE {
+    margin-top: 100px;
+    margin-bottom: 150px ;
+    padding: 15px 0px 75px 0px ;
+}

@@ -1,0 +1,14 @@
+footer{
+    row-gap: 55px;
+    column-gap: 45px;
+    max-width: 1600px ;
+    margin: 100px auto 55px  ;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-size: large ;
+    line-height: 30px ;
+}
+footer a:hover {
+    color: white !important;
+}

@@ -1,0 +1,34 @@
+.bladeD{
+    row-gap: 45px ;
+    margin-top: 150px ;
+    margin-bottom: 150px ;
+    min-height: 750px ;
+    column-gap: 75px ;
+}
+
+
+.bladeD .text-wrapper {
+    flex: 2 1 500px;
+}
+.bladeD .text-wrapper .top-border{
+    width: 80%;
+    max-width: 450px;
+    height: 4px;
+    background-color: white ;
+}
+.bladeD .code-wrapper {
+    flex: 1  1 450px;
+
+}
+.bladeD .code-view{
+    min-height: 440px;
+    max-height: 440px;
+    background-color: #1A2747;
+    border-radius: 10px;
+    padding: 20px ;
+    overflow: auto;
+}
+.bladeD .code-view pre{
+    font-size: small;
+    color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,41 @@
+.upper-wrapper ,.lower-wrapper {
+    column-gap: 170px ;
+    margin: 25px auto;
+}
+
+
+
+.placeholder{
+    flex: 1 1 450px;
+    max-width: 550px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding: 45px 10px;
+}
+.placeholder-view{
+    background-color: rgba(255,255, 255, 0.2);
+    height: 400px;
+    padding-top: 30px;
+    border-radius: 15px;
+    width: 100%;
+}
+.placeholder .upper-big {
+    height: 25px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+}
+.placeholder .lower-small {
+    height: 25px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    margin-top: 30px ;
+}
+ .placeholder .bottom-big {
+    height: 250px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: auto auto 0px auto ;
+    border-radius: 15px 15px 0px 0px ;
+}

@@ -1,0 +1,18 @@
+body{
+    background:linear-gradient( to right , #003378,#05104B);
+}
+
+.master-btn{
+    padding: 15px 30px;
+    border:1px solid #fff;
+    border-radius: 10px 150px 10px 10px ;
+}
+.text-light span ,.text-light  {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+.bg-light {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.bg-light-hover:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

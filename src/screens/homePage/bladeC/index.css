@@ -1,0 +1,29 @@
+.bladeC {
+    row-gap: 35px ;
+    column-gap: 35px ;
+    margin-top: 150px;
+    margin-bottom: 150px ;
+    min-height: 400px ;
+}
+
+.bladeC .text-wrapper {
+    flex: 1 1 600px ;
+}
+.bladeC .action-wrapper {
+    flex: 1  1 400px ;
+}
+.bladeC .text-wrapper .title {
+    color: #16FCD2;
+}
+.bladeC .select-master{
+    padding: 25px 100px 25px 70px ;
+    background-color: transparent;
+    border-radius: 10px ;
+    font-size: xx-large;
+}
+
+.bladeC .select-master *  {
+    background-color:  #05104B  !important;
+    font-size: x-large;
+    color: #fff ;
+}

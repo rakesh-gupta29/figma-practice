@@ -1,0 +1,49 @@
+
+
+.wrapper {
+    min-height: 500px;
+    row-gap: 10px ;
+    margin-top: 30vh;
+}
+.img-wrapper {
+    flex: 1 1 600px;
+    overflow: hidden;
+    margin: 0px auto ;
+   transform: translateY(-45px);
+}
+.img-wrapper img {
+    width: 90%;
+    border-radius: 20px ;
+}
+
+.text-wrapper {
+    flex : 15 1 600px;
+    padding: 25px  min( 3vw , 30px  ) ;
+}
+.img-wrapper ,.text-wrapper,.wrapper  {
+    border-radius: 30px;
+}
+
+.text-wrapper .action-wrapper {
+    margin-top: 20px ;
+    gap: 35px ;
+}
+
+.bladeA::after{
+    content: "";
+    background: url(../assets/line.svg);
+    position: absolute;
+    right: 7vw;
+    top: 0;
+    height: 100px;
+    width: 300px;
+}
+.bladeA::before{
+    content: "";
+    background: url(../assets/ellipse.svg);
+    position: absolute;
+    right: calc(7vw + 175px);
+    top: 30px;
+    height: 150px;
+    width: 150px;
+}

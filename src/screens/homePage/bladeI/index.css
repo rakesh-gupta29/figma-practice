@@ -1,0 +1,13 @@
+.bladeI{
+    min-height: 550px;
+}
+.bladeI .wrapper {
+    min-height: 250px;
+    border-radius: 18px;
+}
+.bladeI .text-wrapper {
+    flex: 1 1 550px ;
+}
+.bladeI .action-wrapper {
+    flex: 1 1 280px ;
+}

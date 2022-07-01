@@ -1,0 +1,39 @@
+.bladeH {
+    row-gap: 100px ;
+    column-gap: 75px ;
+}
+.bladeH input , .bladeH textarea {
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px ;
+}
+.bladeH label , .bladeH label span {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: larger;
+}
+.bladeH input:focus,.bladeH textarea:focus{
+    border-color: rgba(255, 255, 255, 1);
+}
+.bladeH .text-container  {
+    flex: 1 1 600px;
+}
+.bladeH .icon-wrapper {
+    min-height: 65px;
+    min-width: 65px;
+    max-height: 65px;
+    max-width: 65px;
+}
+.bladeH .form-wrapper{
+    flex: 0 1 650px ;
+    padding: 0px 7px;
+}
+.bladeH .master-text{
+    color:#16FCD2;
+}
+.bladeH .text-light{
+    color: rgba(255, 255, 255, 0.4);
+}
+.bladeH .form-data-wrapper {
+    border-radius: 15px ;
+    padding: 55px 20px ;
+    max-width: 550px;
+}
